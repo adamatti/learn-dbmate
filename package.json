@@ -1,0 +1,10 @@
+{
+  "name": "learn-dbmate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Marcelo Adamatti <adamatti@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "dbmate": "^2.5.0"
+  }
+}

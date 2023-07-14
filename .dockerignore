@@ -1,0 +1,7 @@
+db/
+node_modules/
+.dockerignore
+.env
+.nvmrc
+Dockerfile
+Makefile
