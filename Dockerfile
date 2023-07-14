@@ -2,6 +2,7 @@
 #RUN apk update && apk add mysql-client mariadb-connector-c-dev
 
 FROM node:20
+RUN apt-get update && apt-get install default-mysql-client -y
 
 WORKDIR /app
 RUN echo 'alias db="yarn --silent dbmate"' >>~/.bashrc
